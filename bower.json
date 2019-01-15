@@ -1,0 +1,28 @@
+{
+  "name": "next-is-numeric",
+  "version": "0.0.1",
+  "description": "Check if is number or can translate to number",
+  "main": "dist/next-is-numeric.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-is-numeric",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}

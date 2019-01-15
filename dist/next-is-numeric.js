@@ -3,7 +3,7 @@
   var nx = global.nx || require('next-js-core2');
 
   nx.isNumeric = function(inTarget) {
-    !isNaN(parseFloat(inTarget)) && isFinite(inTarget);
+    return !isNaN(parseFloat(inTarget)) && isFinite(inTarget);
   };
 
   if (typeof module !== 'undefined' && module.exports) {
